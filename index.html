@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<!-- En başta genişliği girilen cihazın genişliğine uygun bir şekilde düzenlemek için aşağıdaki satırları kullandım -->
+		
+		<meta charset="UTF-8"> <!-- Bu satır sayesinde türkçe karakterler de sitemde herhangi bir probleme yol açmadan çalışacak -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Bu satır da eğer ki kullanıcı bilgisayar değil de farklı bir cihazdan giriş yaparsa genişliği o girdiği cihaza göre ayarlasın diye yazıldı. Son ibare ise 1x yakınlaştırma kullanarak siteyi açmasına olanak tanıdı -->
+		
+		<title>Hollow Knight</title>
+		
+		<style>
+			
+			<!-- Burada fotoğrafları bir sağa bir sola yaslamak istediğimden bunların hepsini bir container içine aldım ve daha rahat bir kullanım elde etmek amaçlandı. -->
+
+			.container {
+				margin-bottom: 20px; <!-- Bu satır ve alttaki bütün margin satırlarının amacı fotoğraf ile metin arasında boşluk bırakmak için kullanıldı. Bu satırların nerelere doğru boşluk ekledikleri ise left-right-bottom olarak belirtildi. -->		  
+			}
+
+			.left-image { <!-- Sola yaslı bir fotoğraf için bu kullanıldı. -->
+				float: left; 
+				margin-right: 10px;
+			}
+			
+			.right-image{ <!-- Sağa yaslı bir fotoğraf için bu kullanıldı. -->
+				float: right;
+				margin-left: 10px;
+			}
+			
+			.text-left { <!-- Sola yaslı bir metin için bu kullanıldı. -->
+				float: left;
+				margin-right: 10px;
+				width: 60%;
+			}
+			
+			.text-right { <!-- Sağa yaslı bir metin için bu kullanıldı. -->
+				float: right;
+				margin-left: 10px;
+				width: 60%;
+			}
+				
+		</style>
+		
+	</head>
+
+	<body>
+		
+		<main>
+			
+			<h1 align = "center">Hollow Knight</h1>
+			
+			<h2 align = "center">.:Hollow Knight'ın Büyüleyici Dünyasına Hoşgeldiniz:.</h2>
+			
+			<p>Bugün sizlere saatlerce hiç sıkılmadan oynadığım; ayrıca atmosferi, oynanışı ve hikayesiyle beni derinden etkileyen bir oyun olan "Hollow Knight" adlı oyunu tanıtacağım.</p>
+			
+			<h3>&nbsp;&nbsp;&nbsp;&nbsp;.Yapımcı Şirket Hakkında Kısa Bilgiler.</h3> <!-- Burada küçük bir başlık kullanmak istediğimden bu başlığın tamamen sola yaslı olmasını istemedim. Bu yüzden de sol taraftan 4 karakter boşluk bırakarak göze daha hoş gözükmesini sağladım. -->
+			
+			<div class="container">
+			
+				<img class="left-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_team_cherry.jpeg" alt="Team Cherry" width = "130" align = "left"  title = "Team Cherry"/> <!-- Burada kullandığım fotoğrafı hem sola hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+				<p class ="text-left">Hollow Knight, <b>Team Cherry</b> adındaki bağımsız bir oyun stüdyosu tarafından geliştirildi.<br/>Bu oyun stüdyosu, 2013 yılında Avustralya'da kuruldu. Hollow Knight ise stüdyonun ilk büyük projesiydi.<br/>2014 yılında Hollow Knight, <u><i>William Pellen</i></u> (Yönetmen), <u><i>Ari Gibson</i></u> (Sanat Tasarımcısı) ve <u><i>Christopher Larkin</i></u> (müzik) tarafından geliştirilmeye başlandı.<br/>Sadece 3 kişi ile çalışmaya başlayan bu stüdyo, oyunlarını piyasaya sürdüklerinde yıl 2017' yi gösteriyordu.
+				Bu 3 yıllık bir çalışma sürecinde Team Cherry, zamanının çoğunu oyunun atmosferini oluşturmak ve karakterlerin tasarımlarını zenginleştirmek için kullandı.</p>
+			
+			</div>
+			
+			<br/>
+			
+			<h3>&nbsp;&nbsp;&nbsp;&nbsp;.Oyunun Türü ve Oyun Dünyasında Popüler Olmasını Sağlayan Nitelikler.</h3> <!-- Burada küçük bir başlık kullanmak istediğimden bu başlığın tamamen sola yaslı olmasını istemedim. Bu yüzden de sol taraftan 4 karakter boşluk bırakarak göze daha hoş gözükmesini sağladım. -->
+			
+			<div class="container">
+				
+				<img class="left-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_ana_ekran2.jpeg" alt="Hollow Knight" width = "150" align = "left"  title = "Hollow Knight"/> <!-- Burada kullandığım fotoğrafı hem sola hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+				
+				<p class ="text-left">Hollow Knight, Metroidvania, yani oyuncunun gezebileceği büyük bir haritası olan, ilerleyebilmesi için bazı özelliklere veya itemlere sahip olması gereken bir aksiyon-macera türünde bir oyundur. Hollow Knight; keşif, savaş, platform ve parkur unsurlarını mükemmel bir şekilde harmanlamayı başarmış bir oyundur.
+				Hollow Knight, çıkış yaptığı yıldan bu yana popülerliğini kaybetmemiş ve yıllara meydan okuyacak bir popülerliğe ulaşmıştır. Bu başarısını; içinde barındırdığı derin ve etkileyici hikayeye, zengin ve detaylarla dolu bir oyun dünyası inşaa etmelerine ve oyuncuyu sanki o dünyada yaşıyormuş hissiyatı veren atmosferler ve müzikler yapmalarına bağlayabiliriz. Bu kapsamda da Hollow Knight'ın aldığı ödülleri şu şekilde sıralayabiliriz:</p>
+			
+			</div>
+			
+			<u1>
+				
+				<li>2017 Australian Screen Sound Guild(ASSG) Ödülü</li>
+				<li>2018 BAFTA-Best Debut Game Ödülü Adayı</li>
+				<li>2019 NAVGTR-Game Desing, New IP Ödülü</li>
+				<li>2019 NAVGTR-Game, Original Action / Art Direction,Fantasy / Character Desing Ödülleri Adayı</li>
+			
+			</u1>
+			
+			<br/>
+			
+			<h3>&nbsp;&nbsp;&nbsp;&nbsp;.Oyunun Kısaca Hikayesi.</h3> <!-- Burada küçük bir başlık kullanmak istediğimden bu başlığın tamamen sola yaslı olmasını istemedim. Bu yüzden de sol taraftan 4 karakter boşluk bırakarak göze daha hoş gözükmesini sağladım. -->
+			
+			<p>Hollow Knight, alıştığımız standartların aksine hikayeyi direkt oyuncuya anlatmak yerine oyuncunun hikayeyi anlamak için kendini zorlamasını istiyor. Bu sebeple de Hollow Knight'ın hikayesini araştırmak isterseniz neredeyse bütün kaynakların farklı bir şey anlattığına şahit olmanız pek de şaşırtıcı bir durum değil. Bildiğim kadarıyla hikayeyi özetlemem gerekirse eğer şu şekilde özetleyebilirim.</p>
+			
+			<br/>
+			
+			<div class "container">
+			
+				<img class="right-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_ana_ekran.jpeg" alt="Hollow Knight" width = "340" align = "right" title = "Hollow Knight"/> <!-- Burada kullandığım fotoğrafı hem sağa hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+				
+				<p class "text-left">&nbsp;&nbsp;&nbsp;&nbsp;Hikayemizin geçtiği şehir olan <b>Hollownest</b>, bir zamanlar halkın rahatça yaşadığı, içinde şelalelerin, nehirlerin bulunduğu barışçıl bir mekandı.Rüya tanrıçası olarak bilinen <b>Radiance</b>, yarattığı bir enfeksiyon sebebiyle Hollownest'te yaşayan halkı artık beyinleri hiçbir şey düşünemeyen birer canavarlara (husk) dönüştürdü.Krallığı yöneten <b>Pale King</b>, halkını zihinsiz, düşünemeyen, herhangi bir zorluğa karşı savaşamayan yaratıklara dönüştüren bu enfeksiyonu durdurmak için vücutları tamamen boşluktan yapılmış, herhangi bir iradesi olmayan, düşünmek için bir zihni ve ağlamak için bir sesi olmayan <b>vessel</b> adlı yaratıkları yaptı.Amacı, bu vessel'ler arasından en mükemmel (<i>pure vessel</i>) olanı bulmak ve onu bu enfeksiyonu durdurmak için kapısında 3 mühür ve bu mühürleri de koruyan 3 yaratığın bulunduğu <b>Black Egg Temple</b> olarak bilinen tapınağa hapsetmek. <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;Bu düşünce en başlarda başarılı olsa da krallığın son zamanlarında enfeksiyon maalesef ki halka kadar ulaştı ve halkı düşünemeyen yaratıklara çevirdi. Burada da ana karakterimiz <b>The Knight</b> ortaya çıkıyor. The Knight, <b>Birthplace</b> adı verilen bölgeden kaçarak kurtulabilmiş birkaç vessel'den sadece biri. Karakterimizin amacı ise bu enfeksiona ne pahasına olursa olsun bir son vermek. Bunun için ise <b>King's Pass</b> adlı yoldan Hollownest'e geliyor ve önüne çıkan canavarları, engelleri aşarak enfeksiyonu tamamen bitirmeye çalışıyor. Bu yolculuğu esnasında kendini geliştirecek bir sürü yeni ekipman ve özellikler de kazanıyor.</p>
+				<!-- Üst tarafta da paragraf başlığı gibi bir görünüm vermek istediğimden satır başında 4 karakterlik bir boşluk bıraktım. -->
+			</div>
+		
+		</main>
+    
+		<br/>
+		
+		<table = border = "10" bordercolor = "#cccccc" bgcolor = "#e6e6e6" cellpadding = "10" cellspacing = "5" align = "right"> <!-- Burada da diğer sayfalar arasında geçiş yapmak için bir tablo kullanıp bu tablonun içine de geçiş yapılacak sayfaları yazdım. border = "10" yaparak tablonun kalınlığını artırdım ve cellpadding ve cellspacing ile aralıkları dengeledim. -->
+			
+				<tr>
+					
+					<!-- Burada da diğer sayfaların bağlantılarını bu sayfaya ekledim. Bu sayede diğer sayfalara hızlı bir şekilde bir geçiş sağlamış oldum. -->
+					
+					<td> <a href="sayfa1.html">Karakterler</a> </td>
+					<td> <a href="sayfa2.html">Bosslar</a> </td>
+					<td> <a href="sayfa3.html">Charm'lar</a> </td>
+					<td> <a href="sayfa4.html">Bölgeler</a> </td>
+				
+				</tr>
+			
+		</table>
+		
+	</body>
+	
+</html>

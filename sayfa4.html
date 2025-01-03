@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		
+		<!-- En başta genişliği girilen cihazın genişliğine uygun bir şekilde düzenlemek için aşağıdaki satırları kullandım -->
+		
+		<meta charset="UTF-8"> <!-- Bu satır sayesinde türkçe karakterler de sitemde herhangi bir probleme yol açmadan çalışacak -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Bu satır da eğer ki kullanıcı bilgisayar değil de farklı bir cihazdan giriş yaparsa genişliği o girdiği cihaza göre ayarlasın diye yazıldı. Son ibare ise 1x yakınlaştırma kullanarak siteyi açmasına olanak tanıdı -->
+		
+		<title>Hollow Knight-Bölgeler</title>
+		
+		<style>
+			
+			<!-- Burada fotoğrafları bir sağa bir sola yaslamak istediğimden bunların hepsini bir container içine aldım ve daha rahat bir kullanım elde etmek amaçlandı. -->
+			
+			.container {
+				margin-bottom: 20px; <!-- Bu satır ve alttaki bütün margin satırlarının amacı fotoğraf ile metin arasında boşluk bırakmak için kullanıldı. Bu satırların nerelere doğru boşluk ekledikleri ise left-right-bottom olarak belirtildi. -->
+			}
+
+			.left-image { <!-- Sola yaslı bir fotoğraf için bu kullanıldı. -->
+				float: left; 
+				margin-right: 10px;
+			}
+			
+			.right-image{ <!-- Sağa yaslı bir fotoğraf için bu kullanıldı. -->
+				float: right;
+				margin-left: 10px;
+			}
+				
+		</style>
+		
+	</head>
+
+	<body>	
+		
+		<main>
+			
+			<h1 align = "center">.:Bölgeler:.</h1>
+			
+			<img src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_map.jpeg" alt="Hollow Knight Map" width = "1450" align = "center"  title = "Hollow Knight Map"/> <!-- Burada kullandığım fotoğrafı hem merkeze hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+
+			<h3>Hollow Knight, 15 tane birbirinden eşsiz bölgelere sahip bir oyun.<br/>Bu bölgelerin her birindeki atmosfer ve müzik sayesinde kendinizi bir anlığına o bölgede gibi hissediyorsunuz. Bu mükemmel tasarlanmış bölgelerin 5 tanesinde bahsetmem gerekirse şu şekilde gösterebilirim:</h3>
+			
+			<br/>
+			
+			<!-- Kullanacağım her bir parça için ayrı ayrı belirtmek istediğimden her bir parçayı "section" adlı kodla parçalara ayırdım. Bu sayede hem daha rahat çalıştım hem de koduma tekrar baktığımda nerede neyi yazdığımı daha rahat anlamama yardımcı oldu. -->
+			
+			<section>
+					
+				<h3>-Forgotten Crossroads-</h3>
+				
+				<div class="container">
+					
+					<img class="left-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_forgotten_crossroads.jpeg" alt="Forgotten Crossroads" width = "200" align = "left"  title = "Forgotten Crossroads"/> <!-- Burada kullandığım fotoğrafı hem sola hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+					
+					<br/>
+					
+					<p align = "left">Oyunun en başındaki kuyudan aşağı atladığımız zaman karşılaştığımız ilk bölge tam olarak burası.<br/>Özellikle burada elde edeceğimiz en önemli yetenek, etrafımıza ruh atmamızı sağlayan <b>Vengeful Spirit</b> adlı büyüdür.<br/>Birçok önemli bölgeciklere ve eşyalara ev sahipliği yapan bu bölge, aslında oyuna daha hızlı bir şekilde adapte olmamıza yardımcı oluyor.<br/>Bu bölge, toplamda 4 tane boss'a ev sahipliği yapmakla birlikte 19 tür canavarı da barındırıyor.<br/>İlk karşılaştığımız bölgelerden biri olduğundan hem oyuncuyu zorlamamak hem de oyuncuyu atmosfere ve oyuna alıştırmak için tasarlanmış bir bölge diyebiliriz.<br/>Oyunun ileriki zamanlarında ise bu bölgenin enfekte olmuş türünü de görüyoruz ki o zaman da bu canavarlara ek 5 tane enfekte olmuş canavarla karşılaşıyoruz.<br/>Bu da oyuncuya aslında en başta gördüğü bu bölgenin ne kadar da zorlayıcı olabileceğinin bir kanıtını gösterir gibi bir izlenim yaratıyor.</p>
+					<!-- Üst satırda da sol tarafa eklediğim resmin hemen yanından yazmaya devam etmek istediğim için üstte tanımladığım "text-left" komutunu kullandım -->
+					
+				</div>
+					
+			</section>
+			
+			<!-- Burada da kullandığım fotoğrafların üst satırla arasında boşluk olmasını sağlayarak yazıların ve resimlerin iç içe görünmesini engellemeye çalıştım. -->
+			
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<section>
+					
+					<h3 align = "right">-Greenpath-</h3>
+					
+					<div class="container">
+					
+						<img class= "right-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_greenpath.jpeg" alt="Greenpath" width = "200" align = "right"  title = "Greenpath"/> <!-- Burada kullandığım fotoğrafı hem sağa hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+						
+						<br/>
+						<br/>
+					
+						<p align = "right">Burası, Crossroads'tan sonra normal yollarla keşfedebileceğimiz ilk bölge.<br/>Buradan elde edeceğimiz en önemli yetenek ise ileri doğru atılmamızı "<i>dash</i>" sağlayan <b>cloak</b> adlı eşyadır.<br/>Her bölgede olduğu gibi içinde bir sürü parçalara sahip olan bu bölge, içinde birçok parkur ögesi içeriyor.<br/>Oyuncuyu ileride karşısına çıkacak olan parkur bölümlerine hazırlamaya çalışıyor da diyebiliriz.<br/>Bu bölge, toplamda 4 tane boss'a ev sahipliği yapmakla birlikte 21 tür canavarı da barındırıyor.<br/>Burası kendine has müzikleriyle oyuncuyu rahatlatan ve atmosferiyle de içine çeken bölgelerden sadece bir tanesi.</p>
+				
+					</div>
+				
+			</section>
+				
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+				
+			<section>
+					
+				<h3>-Crystal Peak-</h3>
+				
+				<div class="container">
+					
+					<img class="left-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_crystal_peak.jpeg" alt="Crystal Peak" width = "220" align = "left"  title = "Crystal Peak"/> <!-- Burada kullandığım fotoğrafı hem sola hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+					
+					<br/>
+					
+					<p align ="left">Burası ise yine Crossroads ile bağlantısı olan bölgelerden biri.<br/>Buraya normal yollarla ulaşmak istersek kullanabileceğimiz ilk yol <b>Lumafly Lantern</b> adlı feneri almaktır.<br/>Ya da biraz sonra bahsedeceğim "<b>City of Tears</b>" adlı bölgeden <b>Desolate Dive</b> adlı yeteneği alarak da buraya ulaşabiliriz.<br/>Bu bölgeden elde edeceğimiz en önemli yetenek istediğimiz zaman uçarak ilerleyebilmemizi sağlayan <b>crystal dash</b> adlı eşyadır.<br/> Bu eşya hem yürümenin imkansız olduğu yerleri kolayca aşmamızı sağlıyor hem de hızlı bir şekilde haritada gezinmemize olanak tanıyor.<br/>Bu bölge, toplamda 2 tane boss'a ev sahipliği yapmakla birlikte 9 tür canavarı da barındırıyor.<br/>Burası, kristallerin sesinden etkilenmemenin ve ortamın renkleriyle büyülenmemenin elde olmadığı bir yer olsa da ayrıca bulmacaların da bolca bulunduğu bir bölgedir.<br/>Bulmacalar her ne kadar kolay olsa da ilk kez oynayan bir oyuncu için kafa karıştırıcı olabilmektedir.</p>
+				
+				</div>
+				
+			</section>
+				
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+				
+			<section>
+					
+				<h3 align = "right">-City of Tears-</h3>
+				
+				<div class="container">
+					
+					<img class= "right-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_city_of_tears.jpeg" alt="City of Tears" width = "180" align = "right"  title = "City of Tears"/> <!-- Burada kullandığım fotoğrafı hem sağa hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+					
+					<br/>
+					
+					<p align = "right">Burası ise oyunun ortalarına doğru keşfettiğimiz yerlerden ve diğer bölgelere göre biraz daha karışık olan bölgelerden biri.<br/>Buraya ulaşmanın yollarından biri <b>Fungal Wastes</b> adlı bölgedeki büyük kapıyı açmaktır.<br/>Bunun için de <b>Boss'lar</b> kısmında bahsettiğim "<i>False Knight</i>" adlı yaratığı alt etmektir.<br/>Alt ettikten sonra elde edeceğimiz <b>city crest</b> adlı oyulmuş bir taş sayesinde kolayca bu bölgeye giriş yapabiliriz.<br/>Bu bölgeden elde edebileceğimiz en önemli yetenek ise <b>Desolate Dive</b> adlı büyüdür.<br/>Bu büyü, yere güçlü bir ruh vurarak hem kısa bir süreliğine ölümsüz olmamızı hem de yerdeki canavarlara alan hasarı vurmamızı sağlar.<br/>Bu bölge, toplamda 3 tane boss'a ev sahipliği yapmakla birlikte 18 canavarı da barındırıyor.<br/>Burası, üstündeki gölün sızıntılarıyla aşağıya damla damla su damlatması sebebiyle "<i>Gözyaşı</i>" olarak adlandırılıyor.<br/>Buradayken o atmosfer sizi biraz hüzünlendirse de suların yağmur gibi yağması bir an olsun oyunu unutmanıza ve o damlayan suları izlemenize sebep oluyor.</p>
+				
+				</div>
+				
+			</section>
+				
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+				
+			<section>
+					
+				<h3>-Ancient Basin-</h3>
+					
+				<div class="container">
+					
+					<img class="left-image" src="C:\Users\sml_b\OneDrive - Bursa Teknik Universitesi\Masaüstü\html_site_fotograflar\hollow_knight_ancient_basin.jpeg" alt="Ancient Basin" width = "210" align = "left"  title = "Ancient Basin"/> <!-- Burada kullandığım fotoğrafı hem sola hizalamayı hem de olur da kullandığım fotoğraf gözükmezse siteyi açan kişinin orada ne görmesi gerektiğini belirtmesini sağlayan bir bilgi ekledim. Buna ek olarak da fare imleci fotoğrafın üstüne gelirse o fotoğrafın adı çıksın diye küçük bir ayrıntı ekledim. -->
+					
+					<br/>
+					<br/>
+					<br/>
+					
+					<p align = "left">Burası, oyunun artık sonlarına yaklaştığımızda çoğunlukla ziyaret ettiğimiz bir bölge.<br/> Buraya ulaşmanın birkaç yolu var ama genellikle treni kullanarak buraya ulaşabilirsiniz.<br/>Treni aktif etmek için de <b>Deepnest</b> adlı bölgeye girip oradan trenin çalışmasını sağlayan eşyayı almanız gerekiyor.<br/>Bu bölgeden elde edebileceğimiz en önemli eşyalardan biri havadayken bir kere daha zıplamamıza olanak tanıyan <b>Monarch Wings</b> adlı kanatları almaktır.<br/>Bu kanatları almak için buradaki boss'u yani <b>Broken Vessel</b> adlı yaratığı alt etmeniz gerekmektedir. Alt ettikten sonra direkt olarak bu kanatları alabilirsiniz.<br/>Bu bölge, toplamda 2 tane boss'a ev sahipliği yapmakla birlikte 7 canavarı da barındırıyor.<br/>Bu bölge, oyunun arkasındaki hikayeyi yansıtması için yapılmış olsa da kullanılan renk paletleri ve müziklerle biraz gerici bir hava yaratıyor.</p>
+				
+				</div>
+				
+			</section>
+		
+		</main>
+			
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		
+		<table = border = "10" bordercolor = "#cccccc" bgcolor = "#e6e6e6" cellpadding = "10" cellspacing = "5" align = "right"> <!-- Burada da diğer sayfalar arasında geçiş yapmak için bir tablo kullanıp bu tablonun içine de geçiş yapılacak sayfaları yazdım. border = "10" yaparak tablonun kalınlığını artırdım ve cellpadding ve cellspacing ile aralıkları dengeledim. -->
+			
+			<tr>
+					
+					<!-- Burada da diğer sayfaların bağlantılarını bu sayfaya ekledim. Bu sayede diğer sayfalara hızlı bir şekilde bir geçiş sağlamış oldum. -->
+					
+				<td> <a href="index.html">Ana Sayfa</a> </td>
+				<td> <a href="sayfa2.html">Bosslar</a> </td>
+				<td> <a href="sayfa3.html">Charm'lar</a> </td>
+				<td> <a href="sayfa4.html">Bölgeler</a> </td>
+				
+			</tr>
+			
+		</table>
+
+	</body>
+
+</html>
